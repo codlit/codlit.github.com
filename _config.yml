@@ -18,7 +18,6 @@ author :
   github : codlit
   twitter : codlit
   #feedburner : feedname
-  feedburner : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -83,8 +82,8 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false
-    #provider : disqus
+    #provider : false
+    provider : weibo
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -96,6 +95,8 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
+    weibo :
+      uid : codlit
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
