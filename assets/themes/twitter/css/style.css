@@ -51,7 +51,7 @@ body {
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
-  background: #eee;
+  background: #aea;
   color:#005F6B;
   font-size: 1.5em;
   border-radius: 3px;
@@ -61,7 +61,8 @@ body {
   vertical-align:super;
   font-size:0.8em;
 }
-.tag_box a.active {
+/*.tag_box a.active {*/
+.tag_box a:hover{
   background:#57A957;
   border:1px solid #4C964D;
   color:#FFF;
